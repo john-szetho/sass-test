@@ -1,0 +1,33 @@
+$fontStyle1: 'Arial Narrow','Nimbus Sans L',sans-serif;
+$fontStyle2: 'texgyre', sans-serif;
+$borderStyle: solid #313131 3px;
+
+html, body {
+    max-width: 100vw;
+    top: 0;
+    left: 0;
+}
+
+body {
+    font-family: $fontStyle1;
+    font-size: 48pt;
+    line-height: 1;
+    background-color: #f1f1f1;
+    color: #313131;
+}
+
+#deets {
+    h1, p {
+        border-bottom: $borderStyle;
+        padding: .35rem 0;
+    }
+}
+
+.deets-alt {
+    font-family: $fontStyle2;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    overflow: hidden;
+}

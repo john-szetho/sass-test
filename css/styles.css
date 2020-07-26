@@ -1,0 +1,28 @@
+html, body {
+  max-width: 100vw;
+  top: 0;
+  left: 0;
+}
+
+body {
+  font-family: "Arial Narrow", "Nimbus Sans L", sans-serif;
+  font-size: 48pt;
+  line-height: 1;
+  background-color: #f1f1f1;
+  color: #313131;
+}
+
+#deets h1, #deets p {
+  border-bottom: solid #313131 3px;
+  padding: .35rem 0;
+}
+
+.deets-alt {
+  font-family: "texgyre", sans-serif;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+  overflow: hidden;
+}
+/*# sourceMappingURL=styles.css.map */
